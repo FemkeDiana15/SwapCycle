@@ -217,6 +217,17 @@ h4{
     margin: 5px;
 }
 
+h5{
+    font-size: 20pt;
+    display: flex;
+    justify-content: flex-end;
+    color: #F07593;
+    font-family: 'Kavoon';
+    margin: 0;
+    margin-right: 10px; 
+    float: right;
+}
+
 #kaart {
     padding-left: 70px;
     padding-right: 70px; 
