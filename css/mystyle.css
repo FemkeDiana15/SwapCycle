@@ -1,0 +1,232 @@
+body{
+    background-image: url('../img/background.png');
+    background-repeat:no-repeat;
+    background-color: #FFEDD0 ;
+}
+
+@font-face{
+    font-family: JosefinSans;
+    src: url('../css/fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: Kavoon;
+    src: url('../css/fonts/Kavoon-Regular.ttf');
+}
+
+@font-face{
+    font-family: languar;
+    src: url('../css/fonts/Langar-Regular.ttf');
+}
+
+*{
+  max-width: 375px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-bottom: 150px;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFEDD0;
+    font-family: 'languar';
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #5B6841;
+    margin-top: 5px;
+}
+
+h1{
+    font-size: 20pt;
+    display: flex;
+    justify-content: flex-end;
+    color: #F07593;
+    font-family: 'Kavoon';
+    margin: 0;
+    margin-right: 10px; 
+}
+
+h2{
+    font-size: 20pt;
+    display: flex;
+    justify-content:start;
+    color:#F07593;
+    font-family: 'Kavoon';
+    margin: 0px;
+    margin-left: 10px; 
+    margin-top: 73px;
+}
+
+.article1{ 
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #C1BA9A;
+}
+
+.article1 p{
+    font-size: 11pt;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 5px;
+    font-family:'JosefinSans';
+}
+
+.article1 img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.knop-system{
+    background-color: #FCE8DD;
+    color: #5B6841;
+    font-family: 'languar';
+    border: 2px solid #5B6841; 
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 513px;
+}
+
+.knop-locatie{
+    background-color: #FCE8DD;
+    color: #5B6841;
+    font-family: 'languar';
+    border: 2px solid #5B6841; 
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 215px;
+    top: 870px;
+}
+
+#recycleicon{
+    margin: auto;
+    animation: mymove 10s infinite
+}
+
+@keyframes mymove {
+    100% {transform: rotate(-365deg);}
+  }
+
+main img{
+    float: right;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
+    color:#F07593;
+    font-family: 'Kavoon';
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#nummers {
+    margin-right: 23px;
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article2 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+    background-color: #FFEDD0;
+    padding:8px;
+    align-items: stretch;
+}
+
+.article2 p{
+    font-family:'JosefinSans';
+    font-size: 11pt;
+}
+
+
+.article2 article {
+    background-color: #C1BA9A;
+    width: 500px; 
+    height: 270px;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column; 
+}
+
+h4{
+    font-size: 20pt;
+    display: flex;
+    justify-content:start;
+    color:#F07593;
+    font-family: 'Kavoon';
+    margin: 0px;
+    margin-left: 10px; 
+} 
+
+.article3{ 
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 340px;
+    height: 150px;
+    margin: auto;
+    background-color: #C1BA9A;
+}
+
+.article3 p{
+    font-family:'JosefinSans';
+    font-size: 11pt;
+    margin: 5px;
+}
+
+#kaart {
+    padding-left: 70px;
+    padding-right: 70px; 
+    margin: 20px;
+}
+
+#socials{
+    display: flex;
+    justify-content: flex-start;
+    font-family:'JosefinSans';
+    margin: 10px;
+    color: #5B6841;
+}
